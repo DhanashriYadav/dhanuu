@@ -1,0 +1,79 @@
+
+<form action="upload.php" method="get" target="_blank" accept-charset="UTF-8"
+enctype="application/x-www-form-urlencoded" autocomplete="off" novalidate>
+
+</form>
+
+<form method="post" enctype="multipart/form-data" action="upload.php">
+<input type="file" name="pic" />
+<input type="submit" value="Upload" />
+</form>
+
+<div>
+
+<p>this is a 1st paragragh.</p>
+
+<p>this is a 2nd paragragh.</p>
+</div>
+
+<nav role="navigation">
+<ul type="square">
+<li><a href="http://google.com" target="_blank">Google</a></li>
+<li><a href="http://www.bing.com">Bing</a></li>
+<li><a href="http://yahoo.com">Yahoo</a></li>
+
+</ul>
+</nav>
+<footer><a href="#">.....</a></footer>
+
+<section>
+<artical>
+<header><h1>Blog Post</h1>
+<time datetime="13-03-2018">13th march 2018</time>
+</header>
+
+<p> this is a paragraph.</p>
+
+
+<section>
+<h2>Comments <small>relating to "Blog Post"</small></h2>
+<!-- Related comment is also a self-contained article -->
+<article id="user-comment-1">
+<p>Excellent!</p>
+<footer><p>...</p><time>...</time></footer>
+</article>
+</section>
+</article>
+</section>
+</artical>
+
+</section>
+
+<section role="main">
+<p>This section is the main content of this page.</p>
+</section>
+
+<input id="cats" type="checkbox" name="Cats">
+<label >I like Cats!</label>
+
+<form id="form1" action="/login" method="POST" >
+<lable for="username" id="form1">username:</lable>
+<input id="uesrname" type="text" name="username">
+<lable>password:</lable>
+<input type="password" name="password">
+<input type="submit" name="submit">
+</form>
+
+
+<form id="form1" oninput="out1.value=parseInt(in1.value,10)+parseInt(in2.value,10)">
+<fieldset>
+<legend>output example</legend>
+<input type="number" id="in1" name="in1" value="0">
+<br/>
++
+<input type="number" id="in2" name="in2" value="0">
+</fieldset>
+</form>
+
+<output name="out1" for="in1 in2" form="form1" >0</output>
+
